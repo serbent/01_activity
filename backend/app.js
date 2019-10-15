@@ -6,8 +6,8 @@ const mongoose = require('mongoose');
 const Recipe = require('./models/recipe');
 
 const app = express();
-
-mongoose.connect('mongodb://root:example@127.0.0.1/')
+// new-user11:a3sz9VecqInujypx
+mongoose.connect('mongodb+srv://new-user11:a3sz9VecqInujypx@cluster0-ataco.mongodb.net/test?retryWrites=true&w=majority')
   .then(() => {
     console.log('Successfully connected to MongoDB Atlas!');
   })
